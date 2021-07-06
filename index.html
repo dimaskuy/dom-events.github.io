@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+    <style media="screen">
+      * {
+        border: 2px solid #dedede;
+        padding: 15px; margin: 15px;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        max-width: 600px;
+        margin: 30px auto;
+        font-family: sans-serif;
+        color: #333;
+      }
+      h3, code { border: none; margin: unset; padding: unset; }
+      .p1, .p2, .p3, .p4 { cursor: pointer; }
+
+      /* .p3:active { background-color: lightblue; } */
+    </style>
+  </head>
+  <body>
+     <h3> <code>Inspect Element > Console</code>. </h3>
+
+  <h1 id="judul">Hello, World!</h1>
+  <div id="container">
+    <section id="a">
+        <form class="" action="index.html" method="post">
+          <input type="text" name="" placeholder='Submit form untuk mengubah warna background "body"'>
+          <button type="submit" name="button">Submit</button>
+        </form>
+      <p class="p1">Paragraf 1 (klik 2x untuk ubah warna background!)</p>
+      <a href
+      ="http://google.com" target="_blank">Go to the link!</a>
+      <p class="p2">Paragraf 2 (klik untuk ubah warna background!)</p>
+      <p class="p3" onclick="ubahWarna()">Paragraf 3 (klik untuk ubah warna background!)</p>
+    </section>
+    <section id="b">
+      <p class="p4">Paragraf 4 (click me to add new item!)</p>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </section>
+  </div>
+
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
